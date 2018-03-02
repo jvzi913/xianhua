@@ -1,0 +1,249 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 577073 */
+  src: url('https://at.alicdn.com/t/font_577073_0ry8jjf1elsdcxr.eot');
+  src: url('https://at.alicdn.com/t/font_577073_0ry8jjf1elsdcxr.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_577073_0ry8jjf1elsdcxr.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_577073_0ry8jjf1elsdcxr.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_577073_0ry8jjf1elsdcxr.svg#iconfont') format('svg');
+}
+body{
+	background-color: #f1f1f1;
+}
+.header{
+	width: 100%;
+	height: 0.74rem;
+	background-color: #010101;
+	padding: 0 0.18rem;
+	font-size: 0.48rem;
+	align-items: baseline;
+	position: fixed;
+	left: 0;
+	top: 0;
+	/* overflow-y: hidden; */
+}
+.header_top{
+	width: 100%;
+	color: #fcfcfc;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.header_top span{
+	font-family: iconfont;
+
+}
+.size{
+	font-size: 0.54rem;
+}
+.header_bottom{
+	width: 100%;
+	height: auto;
+	display: flex;
+	background-color: #010101;
+	justify-content: space-between;
+	color: #fcfcfc;
+	padding-top: 0.4rem;
+	align-content: center;
+}
+.header_bottom_left{
+	width: 2.34rem;
+	height: 1.4rem;
+	text-align: center;
+}
+.header_bottom_left h5{
+	font-size:0.12rem; 
+	font-weight: normal;
+}
+.header_bottom_left h4{
+	font-size:0.3rem; 
+	padding-top: 0;
+}
+.header_bottom i{
+	padding-top: 0.40rem;
+	font-size: 0.12rem;
+	padding-right: 0.18rem;
+}
+.banner{
+	width: 100%;
+	height: 1.30rem;
+	display: flex;
+	justify-content: space-around;
+}
+.banner-item{
+	width: 0.90rem;
+	height: auto;
+	border-bottom: 0.06rem solid #f1423d;
+}
+.banner-item1{
+	border: none;
+}
+.banner-item h1{
+	color: #f1423d;
+	font-size: 0.4rem;
+	line-height: 1.30rem;
+}
+.banner-item1 h1{
+	color: #494949;
+}
+.lunbodian{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	bottom: 0.20rem;
+	display: flex;
+	justify-content: center;
+}
+.dianitem{
+	width: 0.20rem;
+	height: 0.20rem;
+	border-radius: 50%;
+	margin-right: 0.1rem;
+	background-color: #fff;
+}
+.dianitem1{
+	background-color: #ef6c12;
+}
+.bannerimg{
+	width: 100%;
+	height: 5.34rem;
+	margin-top: 0.03rem;
+	position: relative;
+	z-index: 2;
+}
+.bannerimg img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.fenlei{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	text-align: center;
+	background-color: #fff;
+}
+.fenlei_item{
+	width: 25%;
+	margin-top: 0.6rem;
+	margin-bottom: 0.2rem;
+}
+.fenlei_itemimg{
+	width: 1.2rem;
+	height: 1.2rem;
+	margin: 0 auto;
+}
+.fenlei_itemimg img{
+	width: 100%;
+	height: 100%;
+}
+.fenlei_item p{
+	margin-top: 0.15rem;
+	font-size: 0.3rem;
+}
+.fuwu{
+	width: 100%;
+	height: auto;
+	padding:0.36rem 0 0.36rem;
+	background-color: #E8E8EA;
+	display: flex;
+	justify-content: space-between;
+}
+.fuwu_item{
+	width: 3.60rem;
+	height: 1.84rem;
+}
+.fuwu_item img{
+	width: 100%;
+	height: 100%;
+}
+.jingxuan{
+	width: 100%;
+	height: 1.28rem;
+	display: flex;
+	justify-content: space-around;
+	background-color: #fff;
+	overflow-x: scroll;
+}
+.jingxuan::-webkit-scrollbar{
+	display: none;
+}
+.jingxuan_item{
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	flex-shrink: 0;
+	margin-left: 0.84rem;
+	border-bottom: 0.05rem solid #f1423d;
+	padding: 0.34rem 0;
+
+}
+.jingxuan_item p{
+	font-size: 0.4rem;
+}
+.jingxuan_item1{
+	border: 0;
+	/* margin-left: 0; */
+}
+.content{
+	width: 100%;
+	height:auto;
+	float: left;
+	background-color: #fff;
+}
+.content_item{
+	width: 4.96rem;
+	height: auto;
+	margin: 0 0.22rem;
+	float: left;
+}
+.content_item h2>a{
+	color: #000;
+}
+.content_item_img{
+	width: 4.96rem;
+	height: 5rem;		
+}
+.content_item img{
+	width: 100%;
+	height: 100%;
+}
+.content_item h2{
+	font-size: 0.4rem;
+	font-weight: normal;
+	color: #666;
+}
+.content_item h5{
+	font-size: 0.3rem;
+	font-weight: normal;
+	color: red;
+	margin-top: 0.2rem;
+}
+.footer{
+	width: 100%;
+	height: 1.7rem;
+	display: flex;
+	justify-content: space-around;
+	background-color: #fff;
+	text-align: center;
+	overflow-y: hidden;
+	position: fixed;
+}
+.footer_item{
+	height: 1.5rem;
+	margin: 0.25rem 0;
+	font-size: 0.6rem;
+}
+.footer_item span{
+	font-family: iconfont;
+	color: #7d7d7d;
+}
+.footer_item h5{
+	font-weight: normal;
+	font-size: 0.2rem;
+
+}
