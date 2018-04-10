@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 577073 */
+  src: url('https://at.alicdn.com/t/font_577073_16ws6udoc99newmi.eot');
+  src: url('https://at.alicdn.com/t/font_577073_16ws6udoc99newmi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_577073_16ws6udoc99newmi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_577073_16ws6udoc99newmi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_577073_16ws6udoc99newmi.svg#iconfont') format('svg');
+}
+#car_top{
+	width: 100%;
+	height: 1.35rem;
+	background-color: #eee;
+	border-bottom: 0.01rem solid #b0b0b0;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.4rem;
+	font-size: 0.45rem;
+	line-height: 1.35rem;
+}
+.car_topl span,.car_topr span{
+	font-family: iconfont;
+	color: #505050;
+}
+.car_topm{
+	color: #333;
+}
+.xiangqing_top,.xiangqing_mid{
+	width: 100%;
+	height: 1.33rem;
+}
+.xiangqing_item{
+	width: 25%;
+	height: 1.33rem;
+	float: left;
+	color: #7e7e7e;
+	line-height: 1.33rem;
+	text-align: center;
+	font-size: 0.35rem;
+	border-left: 0.01rem solid #e0e0e0;
+	border-bottom: 0.01rem solid #e0e0e0;
+}
+.xiangqing_item1{
+	border-left: 0;
+	color: #ff6700;
+	border-bottom: 0.01rem solid #ff6700;
+}
+.mid_item{
+	width: 20%;
+	height: 1.33rem;
+	float: left;
+	color: #333;
+	line-height: 1.33rem;
+	text-align: center;
+	font-size: 0.3rem;
+	border-bottom: 0.01rem solid #e0e0e0;
+}
+.mid_item span{
+	font-weight: normal;
+}
+.mid_item1 span{
+	font-weight: 900;
+}
+.xiangqing_bottom{
+	width: 100%;
+	height: auto;
+	padding: 0.3rem;
+	overflow: hidden;
+}
+.bottom_item{
+	width:5rem;
+	height: 7rem;
+	float: left;
+	margin-left: 0.2rem;
+	border: 0.02rem solid #e0e0e0;
+}
+.bottom_item1{
+	margin-left: 0;
+}
+.bt_shang{
+	width: 100%;
+	height: 5.45rem;
+}
+.bt_shang img{
+	width: 100%;
+	height: 100%;
+}
+.bt_xia{
+	width: 100%;
+	height: 1.55rem;
+	font-size: 0.3rem;
+	padding: 0.25rem;
+	color: #333;
+}
+.bt_xia span{
+	color: #ff6700;
+	margin-left: 0.3rem;
+}
+.bt_xia p:nth-child(2){
+	color: #b0b0b0;
+	font-size: 0.25rem;
+}

@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'iconfont';  /* project id 577073 */
-  src: url('https://at.alicdn.com/t/font_577073_0ry8jjf1elsdcxr.eot');
-  src: url('https://at.alicdn.com/t/font_577073_0ry8jjf1elsdcxr.eot?#iefix') format('embedded-opentype'),
-  url('https://at.alicdn.com/t/font_577073_0ry8jjf1elsdcxr.woff') format('woff'),
-  url('https://at.alicdn.com/t/font_577073_0ry8jjf1elsdcxr.ttf') format('truetype'),
-  url('https://at.alicdn.com/t/font_577073_0ry8jjf1elsdcxr.svg#iconfont') format('svg');
+  src: url('https://at.alicdn.com/t/font_577073_4tkgyxm2hlbrcnmi.eot');
+  src: url('https://at.alicdn.com/t/font_577073_4tkgyxm2hlbrcnmi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_577073_4tkgyxm2hlbrcnmi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_577073_4tkgyxm2hlbrcnmi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_577073_4tkgyxm2hlbrcnmi.svg#iconfont') format('svg');
 }
 body{
 	background-color: #f1f1f1;
@@ -19,7 +19,7 @@ body{
 	position: fixed;
 	left: 0;
 	top: 0;
-	/* overflow-y: hidden; */
+	z-index: 9;
 }
 .header_top{
 	width: 100%;
@@ -43,6 +43,7 @@ body{
 	justify-content: space-between;
 	color: #fcfcfc;
 	padding-top: 0.4rem;
+	margin-top: 0.74rem;
 	align-content: center;
 }
 .header_bottom_left{
@@ -187,7 +188,6 @@ body{
 }
 .jingxuan_item1{
 	border: 0;
-	/* margin-left: 0; */
 }
 .content{
 	width: 100%;
@@ -225,25 +225,35 @@ body{
 }
 .footer{
 	width: 100%;
-	height: 1.7rem;
-	display: flex;
-	justify-content: space-around;
+	height: 1.2rem;
 	background-color: #fff;
 	text-align: center;
-	overflow-y: hidden;
 	position: fixed;
+	bottom: 0;
+	left: 0;
 }
 .footer_item{
+	width: 25%;
 	height: 1.5rem;
-	margin: 0.25rem 0;
-	font-size: 0.6rem;
+	font-size: 0.5rem;
+	float: left;
+	color: #7d7d7d;
 }
 .footer_item span{
 	font-family: iconfont;
-	color: #7d7d7d;
+	font-size: 0.7rem;
+}
+.footer_item1 span{
+	color: #FA087E;
+
+}
+.footer_item1 h5{
+	color: red;
 }
 .footer_item h5{
 	font-weight: normal;
 	font-size: 0.2rem;
-
+}
+.footer a{
+	color: #7d7d7d;
 }

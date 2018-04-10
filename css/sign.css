@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 577073 */
+  src: url('https://at.alicdn.com/t/font_577073_16ws6udoc99newmi.eot');
+  src: url('https://at.alicdn.com/t/font_577073_16ws6udoc99newmi.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_577073_16ws6udoc99newmi.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_577073_16ws6udoc99newmi.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_577073_16ws6udoc99newmi.svg#iconfont') format('svg');
+}
+.header{
+	width: 100%;
+	height: 0.74rem;
+	background-color: #010101;
+	padding: 0 0.18rem;
+	font-size: 0.48rem;
+	align-items: baseline;
+}
+.header_top{
+	width: 100%;
+	color: #fcfcfc;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.header_top span{
+	font-family: iconfont;
+
+}
+.size{
+	font-size: 0.54rem;
+}
+#car_top{
+	width: 100%;
+	height: 1.35rem;
+	background-color: #eee;
+	border-bottom: 0.01rem solid #b0b0b0;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.4rem;
+	font-size: 0.45rem;
+	line-height: 1.35rem;
+}
+.car_topl span,.car_topr span{
+	font-family: iconfont;
+	color: #505050;
+}
+.zhuce{
+	width: 10.40rem;
+	margin: 0.25rem;
+	height: 0.75rem;
+	border: 0.02rem solid red;
+	border-radius: 0.1rem ;
+}
+.zhece_item{
+	width: 50%;
+	height: 100%;
+	float: left;
+	font-size: 0.35rem;
+	line-height: 0.75rem;
+	text-align: center;
+}
+.zhece_item1{
+	background-color: red;
+	color: #fff;
+}
+.yz{
+	width: 10.4rem;
+	height: 1.24rem;
+	background-color: #f9f9f9;
+	position: relative;
+}
+input{
+	width: 10.4rem;
+	height: 1.24rem;
+	border: 0.01rem solid #b0b0b0;
+	margin: 0.25rem;
+	background-color: #f9f9f9;
+	padding-left: 0.25rem;
+}
+
+.yanzheng{
+	position: relative;
+}
+.yanzhengma{
+	position: absolute;
+	bottom: -0.2rem;
+	right: 0.05rem;
+	width: 2.5rem;
+	height: 0.8rem;
+	border-left: 0.01rem solid #b0b0b0;
+}
+.duanxin{
+	width: 10.4rem;
+	height: 1.24rem;
+	margin:0.25rem;
+	padding: 0;
+	margin-top: 1rem;
+}
+.duanxin1,.duanxin2{
+	width: 5rem;
+	height: 1.24rem;
+	margin: 0;
+	float: left;
+}
+.duanxin2{
+	float: right;
+	border:0.02rem solid #ff6700;
+	color: #ff6700;
+}
+.next{
+	width: 10.4rem;
+	height: 1.24rem;
+	background-color: #ff6700;
+	margin: 0.25rem;
+	padding-left: 0.25rem;
+	border-radius: 10% 10%;
+	text-align: center;
+	line-height: 1.24rem;
+	color: #fff;
+	font-size: 0.5rem;
+}
+.find{
+	font-size: 0.35rem;
+	margin: 0.25rem;
+}
+.find a{
+	color: #666666;
+}
+.find span{
+	float: right;
+	color: #666;
+}
